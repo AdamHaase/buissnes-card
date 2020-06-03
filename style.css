@@ -21,12 +21,6 @@ body{
     margin: 16px;
     padding: 32px;
 }
-
-.person{
-
-
-}
-
 .person__name{
     font-size: 36px;
   margin: 0;
@@ -38,7 +32,7 @@ body{
     margin: 0;
     font-style: italic;
 }
-.person__description--with--margin{
+.person__description--with--margin {
     margin-bottom: 22px;
 }
 .person__description{
@@ -56,4 +50,11 @@ body{
 .person__link{
     color:#E20613;
 text-decoration: none;
+}
+.person__picture{
+   margin-right: 32px;
+}
+.person{
+    display: flex;
+    align-items: flex-start;
 }
